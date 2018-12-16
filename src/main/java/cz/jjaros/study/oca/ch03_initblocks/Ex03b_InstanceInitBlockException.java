@@ -1,4 +1,4 @@
-package cz.jjaros.study.oca;
+package cz.jjaros.study.oca.ch03_initblocks;
 
 import cz.jjaros.study.helper.exception.CheckedException;
 

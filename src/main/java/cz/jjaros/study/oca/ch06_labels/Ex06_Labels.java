@@ -1,4 +1,4 @@
-package cz.jjaros.study.oca;
+package cz.jjaros.study.oca.ch06_labels;
 
 import java.util.List;
 import java.util.stream.Collectors;

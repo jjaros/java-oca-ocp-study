@@ -1,4 +1,4 @@
-package cz.jjaros.study.oca;
+package cz.jjaros.study.oca.ch04_packages;
 
 // NE: zastupna hvezdicka muze byt jen jednou a pouze na konci
 //import java.*.Date;

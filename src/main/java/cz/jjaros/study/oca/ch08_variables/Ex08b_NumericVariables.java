@@ -1,8 +1,8 @@
-package cz.jjaros.study.oca;
+package cz.jjaros.study.oca.ch08_variables;
 
 import cz.jjaros.study.helper.Console;
 
-public class Ex08b_NumberVariables {
+public class Ex08b_NumericVariables {
 
     public static void main(String[] args) {
 

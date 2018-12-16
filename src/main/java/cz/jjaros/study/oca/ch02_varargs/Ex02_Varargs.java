@@ -1,4 +1,4 @@
-package cz.jjaros.study.oca;
+package cz.jjaros.study.oca.ch02_varargs;
 
 public class Ex02_Varargs {
 

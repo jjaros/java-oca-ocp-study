@@ -1,4 +1,4 @@
-package cz.jjaros.study.oca;
+package cz.jjaros.study.oca.ch08_variables;
 
 public class Ex08d_ArrayVariables {
 

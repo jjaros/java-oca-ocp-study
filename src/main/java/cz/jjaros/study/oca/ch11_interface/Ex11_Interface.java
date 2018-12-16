@@ -1,4 +1,4 @@
-package cz.jjaros.study.oca;
+package cz.jjaros.study.oca.ch11_interface;
 
 interface InterfaceA {
     public static final int INT_CONSTANT = 0; // 'public static final' is redundant in interface

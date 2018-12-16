@@ -1,4 +1,4 @@
-package cz.jjaros.study.oca;
+package cz.jjaros.study.oca.ch01_basics;
 
 import java.io.Serializable;
 

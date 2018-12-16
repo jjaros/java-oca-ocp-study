@@ -1,4 +1,4 @@
-package cz.jjaros.study.oca;
+package cz.jjaros.study.oca.ch12_lambda;
 
 import java.util.Arrays;
 import java.util.List;

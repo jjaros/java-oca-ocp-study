@@ -1,4 +1,4 @@
-package cz.jjaros.study.oca;
+package cz.jjaros.study.oca.ch13_exception;
 
 import cz.jjaros.study.helper.exception.CheckedException;
 

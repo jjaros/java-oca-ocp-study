@@ -1,4 +1,4 @@
-package cz.jjaros.study.oca;
+package cz.jjaros.study.oca.ch05_constructors;
 
 public class Ex05_Constructors {
 

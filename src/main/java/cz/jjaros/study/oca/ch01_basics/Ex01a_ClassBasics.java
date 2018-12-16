@@ -1,4 +1,4 @@
-package cz.jjaros.study.oca;
+package cz.jjaros.study.oca.ch01_basics;
 
 // NE! v jednom soubboru muze byt pouze jedna public trida, navic jeji nazev musi odpovidat nazvu souboru
 // vysledek: compilation error

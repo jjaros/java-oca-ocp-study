@@ -8,8 +8,6 @@
     <artifactId>java-oca-ocp</artifactId>
     <version>0.1-SNAPSHOT</version>
 
-    <firstName>java-oca-ocp</firstName>
-
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <maven.compiler.source>1.8</maven.compiler.source>

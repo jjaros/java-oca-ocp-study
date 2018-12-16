@@ -1,4 +1,4 @@
-package cz.jjaros.study.oca;
+package cz.jjaros.study.oca.ch07_comparators;
 
 import cz.jjaros.study.helper.Person;
 import cz.jjaros.study.helper.Console;

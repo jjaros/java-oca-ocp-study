@@ -1,4 +1,4 @@
-package cz.jjaros.study.oca;
+package cz.jjaros.study.oca.ch10_abstract;
 
 import cz.jjaros.study.helper.exception.CheckedException;
 import cz.jjaros.study.helper.exception.ChildCheckedException;
