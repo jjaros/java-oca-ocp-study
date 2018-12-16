@@ -1,4 +1,4 @@
-# 1 Classes, static classes, inner classes #
+# 1. Classes, static classes, inner classes #
 * `*.java` file must have **exactly one public class**, its name must be equal to filename
 
 ## Inner classes ##
