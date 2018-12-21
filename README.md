@@ -1,7 +1,7 @@
 # OCA&OCP Java SE 8 Study materials #
 This project contains summarized notes and Java classes for studying the Oracle certification - **OCA and OCP Java SE 8**. 
 
-**_Note:_** The materials are not 100% exhaustive and should not be used as main study materials 
+**_Note:_** This materials are not 100% exhaustive and should not be used as main study materials 
 but it can be good start point or support for your studying.
 Great preparation is e.g. question bank from the [Enthuware](http://enthuware.com/java-certification-mock-exams/oracle-certified-professional/java-se-8-1z0-809).
 
