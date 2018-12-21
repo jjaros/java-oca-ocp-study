@@ -1,3 +1,0 @@
-exceptions - https://www.tutorialspoint.com/java/java_exceptions.htm
-- obrázek
-- texty

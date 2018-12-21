@@ -15,10 +15,10 @@ The main points in project structure are:
 Examples are structured to chapters. Each chapter is stored in separate package. 
 Each package contains **README.md** file with notes of concrete chapter. 
 It provides easy way how to show notes here on GitHub. 
-If you want to get all notes at one place, you can read [`java_oca_ocp_notes.odt`](doc/java_oca_ocp_notes.odt). 
+If you want to get all notes at one place, you can read [`java_oca_ocp_notes.odt`](doc/cz/java_oca_ocp_notes.odt) (**beware:** currently only in czech). 
 
 Java classes with examples contains a lot of comments. 
-Is it good to use examples in Java classes with notes at GitHub or notes in [`java_oca_ocp_notes.odt`](doc/java_oca_ocp_notes.odt) together.
+Is it good to use examples in Java classes with notes at GitHub or notes in [`java_oca_ocp_notes.odt`](doc/cz/java_oca_ocp_notes.odt) together.
 
 Each Java class with examples contain `main` method. Examples provides a lot of text printed to standard output. 
 You can easy verify the behavior of code. 
@@ -48,3 +48,11 @@ git clone https://github.com/jjaros/lombok-example.git
 
 ## OCP chapters ##
 **...TBD...**
+
+## Sources ##
+* [www.tutorialspoint.com/java/java_exceptions](https://www.tutorialspoint.com/java/java_exceptions.htm)
+* [www.tutorialspoint.com/java/java_innerclasses](https://www.tutorialspoint.com/java/java_innerclasses.htm)
+* [docs.oracle.com/javase/tutorial/java/nutsandbolts/operators](https://docs.oracle.com/javase/tutorial/java/nutsandbolts/operators.html)
+* [docs.oracle.com/javase/tutorial/java/data/autoboxing](https://docs.oracle.com/javase/tutorial/java/data/autoboxing.html)
+* [docs.oracle.com/javase/tutorial/java/nutsandbolts/datatypes](https://docs.oracle.com/javase/tutorial/java/nutsandbolts/datatypes.html)
+* [www.tutorialspoint.com/java/java_exceptions](https://www.tutorialspoint.com/java/java_exceptions.htm)

@@ -6,7 +6,7 @@ the value from `finally` is returned (value from `try` block is ignored)
 * if in code is only `try-finally` (without any `catch` block) and finally block contains `return` statement, 
 the possibly exception thrown in try is ignored
 
-![alt text](../../../../../../../../doc/exception_hierarchy.jpg)
+![Exception hierarchy](../../../../../../../../doc/exception_hierarchy.jpg)
 
 ## Error ##
 * mostly is error that is not in control of user or programmer

@@ -5,7 +5,7 @@
 * see: [www.tutorialspoint.com/java/java_innerclasses](https://www.tutorialspoint.com/java/java_innerclasses.htm)
   * in Java can't exist class with `private` modifier - **except inner class**
 
-![alt text](https://www.tutorialspoint.com/java/images/inner_classes.jpg)
+![Class hierarchy](../../../../../../../../doc/class_hierarchy.jpg)
 
 ### Inner class ###
 * to creation new instance of inner class must exist instance of outer class
