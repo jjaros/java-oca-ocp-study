@@ -3,7 +3,19 @@ This project contains summarized notes and Java classes for studying the Oracle 
 
 **_Note:_** This materials are not 100% exhaustive and should not be used as main study materials 
 but it can be good start point or support for your studying.
-Great preparation is e.g. question bank from the [Enthuware](http://enthuware.com/java-certification-mock-exams/oracle-certified-professional/java-se-8-1z0-809).
+
+Great preparation is e.g. question bank provided by [Enthuware](https://enthuware.com/).
+
+Also there are many Android applications with questions and mock tests. 
+In my preparation I used the following:
+
+**For OCA:**
+* [Core Java 8](https://play.google.com/store/apps/details?id=com.eternal.soft.corejava8)
+
+**For OCP:**
+* [OCP - Java Test SE8 1Z0–809](https://play.google.com/store/apps/details?id=com.magycbytes.ocpjavatest)
+* [Java Certification Practice Test (OCPJP or OCJP)](https://play.google.com/store/apps/details?id=shreeenavnath.software.com.java)
+* [Java OCJP Preparation](https://play.google.com/store/apps/details?id=com.dooarsapp.ocjp)
 
 ## Introduction ##
 The main points in project structure are:
@@ -15,10 +27,10 @@ The main points in project structure are:
 Examples are structured to chapters. Each chapter is stored in separate package. 
 Each package contains **README.md** file with notes of concrete chapter. 
 It provides easy way how to show notes here on GitHub. 
-If you want to get all notes at one place, you can read [`java_oca_ocp_notes.odt`](doc/cz/java_oca_ocp_notes.odt) (**beware:** currently only in czech). 
+If you want to get all notes at one place, you can read [`java_oca_cz_notes.odt`](doc/cz/java_oca_cz_notes.odt) (**beware:** currently only in czech). 
 
 Java classes with examples contains a lot of comments. 
-Is it good to use examples in Java classes with notes at GitHub or notes in [`java_oca_ocp_notes.odt`](doc/cz/java_oca_ocp_notes.odt) together.
+Is it good to use examples in Java classes with notes at GitHub or notes in [`java_oca_cz_notes.odt`](doc/cz/java_oca_cz_notes.odt) together (in czech just now).
 
 Each Java class with examples contain `main` method. Examples provides a lot of text printed to standard output. 
 You can easy verify the behavior of code. 
@@ -47,7 +59,16 @@ git clone https://github.com/jjaros/lombok-example.git
 13. [Exceptions](src/main/java/cz/jjaros/study/oca/ch13_exception)
 
 ## OCP chapters ##
-**...TBD...**
+1. [Functional interfaces](src/main/java/cz/jjaros/study/ocp/ch01_functionalinterfaces) - lambda expressions, standard interfaces, `Bi*` interfaces
+2. [Stream API](src/main/java/cz/jjaros/study/ocp/ch02_streams)
+3. [Concurrency and Synchronization](src/main/java/cz/jjaros/study/ocp/ch03_synchronization) - deadlock, daemon, pool, fork-join, cyclic barrier, ...
+4. [DateTime API](src/main/java/cz/jjaros/study/ocp/ch04_datetime)
+5. [Assertions](src/main/java/cz/jjaros/study/ocp/ch05_assertions)
+6. [Localization](src/main/java/cz/jjaros/study/ocp/ch06_localization)
+7. [JDBC](src/main/java/cz/jjaros/study/ocp/ch07_jdbc)
+8. [Files and I/O Fundamentals](src/main/java/cz/jjaros/study/ocp/ch08_files)
+9. [Generics](src/main/java/cz/jjaros/study/ocp/ch09_generics)
+10. [DTO and object mapping](src/main/java/cz/jjaros/study/ocp/ch10_objectmapping)
 
 ## Sources ##
 * [www.tutorialspoint.com/java/java_exceptions](https://www.tutorialspoint.com/java/java_exceptions.htm)
