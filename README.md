@@ -27,10 +27,12 @@ The main points in project structure are:
 Examples are structured to chapters. Each chapter is stored in separate package. 
 Each package contains **README.md** file with notes of concrete chapter. 
 It provides easy way how to show notes here on GitHub. 
-If you want to get all notes at one place, you can read [`java_oca_cz_notes.odt`](doc/cz/java_oca_cz_notes.odt) (**beware:** currently only in czech). 
+If you want to get all notes at one place, you can read [`java_oca_cz_notes.odt`](doc/cz/java_oca_cz_notes.odt) 
+or [`java_ocp_cz_notes.odt`](doc/cz/java_ocp_cz_notes.odt) (**beware:** both are currently only in czech). 
 
 Java classes with examples contains a lot of comments. 
-Is it good to use examples in Java classes with notes at GitHub or notes in [`java_oca_cz_notes.odt`](doc/cz/java_oca_cz_notes.odt) together (in czech just now).
+Is it good to use examples in Java classes with notes at GitHub or notes in [`java_oca_cz_notes.odt`](doc/cz/java_oca_cz_notes.odt) 
+(resp. in [`java_ocp_cz_notes.odt`](doc/cz/java_ocp_cz_notes.odt)) together.
 
 Each Java class with examples contain `main` method. Examples provides a lot of text printed to standard output. 
 You can easy verify the behavior of code. 
@@ -70,7 +72,7 @@ git clone https://github.com/jjaros/lombok-example.git
 9. [Generics](src/main/java/cz/jjaros/study/ocp/ch09_generics)
 10. [DTO and object mapping](src/main/java/cz/jjaros/study/ocp/ch10_objectmapping)
 
-## Sources ##
+## Sources and references ##
 * [www.tutorialspoint.com/java/java_exceptions](https://www.tutorialspoint.com/java/java_exceptions.htm)
 * [www.tutorialspoint.com/java/java_innerclasses](https://www.tutorialspoint.com/java/java_innerclasses.htm)
 * [docs.oracle.com/javase/tutorial/java/nutsandbolts/operators](https://docs.oracle.com/javase/tutorial/java/nutsandbolts/operators.html)
