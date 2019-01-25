@@ -4,7 +4,7 @@ import java.util.List;
 
 public class Console {
 
-    public static void printList(String intro, List<Person> list) {
+    public static void printList(String intro, List<?> list) {
         System.out.println("> " + intro + " <");
         list.forEach(System.out::println);
         lineDelimiter();

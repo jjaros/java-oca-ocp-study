@@ -8,6 +8,10 @@ public class Ex06_Labels {
 
     public static void main(String[] args) {
 
+        myBlockCode: {
+            // pojmenovany blok kodu
+        }
+
         List<Integer> integers = Stream.of(0, 1, 2, 3, 4, 5).collect(Collectors.toList());
 
         OUTER_LABEL: for (Integer integer : integers) { // cyklus s labelem: OUTER_LABEL

@@ -1,4 +1,4 @@
-# 11 Interfaces #
+# 11. Interfaces #
 * redundant modifiers for constants in interface:
   * `public`
   * `static`

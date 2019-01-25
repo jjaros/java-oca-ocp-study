@@ -1,9 +1,9 @@
-package cz.jjaros.study.ocp.ch05_assertions;
+package cz.jjaros.study.ocp.ch07_assertions;
 
 import java.util.ArrayList;
 import java.util.List;
 
-public class Ex05_Assertions {
+public class Ex07_Assertions {
 
     public static void main(String[] args) {
 

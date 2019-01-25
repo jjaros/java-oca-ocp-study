@@ -1,8 +1,8 @@
-package cz.jjaros.study.ocp.ch06_localization;
+package cz.jjaros.study.ocp.ch08_localization;
 
 import java.util.Locale;
 
-public class Ex06a_Localization {
+public class Ex08a_Localization {
 
     public static void main(String[] args) {
 

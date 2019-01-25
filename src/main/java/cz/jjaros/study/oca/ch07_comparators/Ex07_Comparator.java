@@ -1,6 +1,6 @@
 package cz.jjaros.study.oca.ch07_comparators;
 
-import cz.jjaros.study.helper.Person;
+import cz.jjaros.study.oca.ch07_comparators.support.Person;
 import cz.jjaros.study.helper.Console;
 
 import java.util.Arrays;

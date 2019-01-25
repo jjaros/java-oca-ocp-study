@@ -1,4 +1,4 @@
-package cz.jjaros.study.helper;
+package cz.jjaros.study.oca.ch07_comparators.support;
 
 public class Person implements Comparable<Person> {
 

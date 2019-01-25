@@ -22,3 +22,6 @@ is at the another place as abstract class or interface
 ### Nested Static class ###
 * is accessible without instance of outer class
 * has no access to attributes and methods of outer class
+
+## Basic inheritance ##
+* see [OCP, chapter 1 Classes and objects](../../ocp/ch01_classesobjects)

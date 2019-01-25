@@ -1,4 +1,4 @@
-# 5. Assertions #
+# 7. Assertions #
 * see [docs.oracle.com/javase/8/docs/technotes/guides/language/assert](https://docs.oracle.com/javase/8/docs/technotes/guides/language/assert.html)
 * assertions (`assert` commands) are ignored by default
 * failed assert (it mean `assert false;`) causes `java.lang.AssertionError`

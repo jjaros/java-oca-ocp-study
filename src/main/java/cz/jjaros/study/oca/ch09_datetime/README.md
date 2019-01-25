@@ -1,4 +1,4 @@
-# 9 DateTime API #
+# 9. DateTime API #
 * object of `java.util.Date` has attribute that holds count of seconds from _01-01-1970 01:00:00.000_
 * Java 8 comes with new API (should be in `java.time.*` package) inspired by Joda-Time
 * objects from new date/time API have attributes as `year`, `month`, `day`, ... with explicit value

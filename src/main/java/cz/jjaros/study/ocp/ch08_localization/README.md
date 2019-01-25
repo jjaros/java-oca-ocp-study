@@ -1,4 +1,4 @@
-# 6. Localization #
+# 8. Localization #
 
 ## Locale ##
 * class `java.util.Locale`

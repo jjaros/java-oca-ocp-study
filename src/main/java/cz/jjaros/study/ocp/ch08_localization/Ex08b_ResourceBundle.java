@@ -1,4 +1,4 @@
-package cz.jjaros.study.ocp.ch06_localization;
+package cz.jjaros.study.ocp.ch08_localization;
 
 import cz.jjaros.study.helper.Console;
 
@@ -7,7 +7,7 @@ import java.util.Locale;
 import java.util.MissingResourceException;
 import java.util.ResourceBundle;
 
-public class Ex06b_ResourceBundle {
+public class Ex08b_ResourceBundle {
 
     public static void main(String[] args) {
         printMessageFromProperties();

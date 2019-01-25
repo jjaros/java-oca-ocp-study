@@ -17,15 +17,17 @@ In my preparation I used the following:
 * [Java Certification Practice Test (OCPJP or OCJP)](https://play.google.com/store/apps/details?id=shreeenavnath.software.com.java)
 * [Java OCJP Preparation](https://play.google.com/store/apps/details?id=com.dooarsapp.ocjp)
 
+
 ## Introduction ##
 The main points in project structure are:
-* [`doc`](doc) directory - notes for each chapter summarized to one document
+* [`doc`](doc) directory - notes for each chapter summarized to one document (one for OCA and one for OCP)
 * [`src/main/java/cz/jjaros/study/oca`](src/main/java/cz/jjaros/study/oca) - examples for [Oracle Certified Associate](https://education.oracle.com/oracle-certified-associate-java-se-8-programmer/trackp_333)
 * [`src/main/java/cz/jjaros/study/ocp`](src/main/java/cz/jjaros/study/ocp) - examples for [Oracle Certified Professional](https://education.oracle.com/oracle-certified-professional-java-se-8-programmer/trackp_357)
-* [`src/main/java/cz/jjaros/study/helper`](src/main/java/cz/jjaros/study/helper) - helper classes for examples
+* [`src/main/java/cz/jjaros/study/helper`](src/main/java/cz/jjaros/study/helper) - global helper classes used in more then one chapter
+  * required helper classes for concrete chapter are stored directly in sub-package for that chapter
 
 Examples are structured to chapters. Each chapter is stored in separate package. 
-Each package contains **README.md** file with notes of concrete chapter. 
+Each package contains **README.md** file with notes to concrete chapter. 
 It provides easy way how to show notes here on GitHub. 
 If you want to get all notes at one place, you can read [`java_oca_cz_notes.odt`](doc/cz/java_oca_cz_notes.odt) 
 or [`java_ocp_cz_notes.odt`](doc/cz/java_ocp_cz_notes.odt) (**beware:** both are currently only in czech). 
@@ -37,13 +39,16 @@ Is it good to use examples in Java classes with notes at GitHub or notes in [`ja
 Each Java class with examples contain `main` method. Examples provides a lot of text printed to standard output. 
 You can easy verify the behavior of code. 
 
-### Prerequisites ###
-You should have Oracle Java 8 SDK installed.
 
 ### Clone repository ###
 ```
 git clone https://github.com/jjaros/lombok-example.git
 ```
+
+
+## Prerequisites ##
+You should have Oracle Java 8 SDK installed.
+
 
 ## OCA chapters ##
 1. [Basics](src/main/java/cz/jjaros/study/oca/ch01_basics) - Classes, Static classes, Inner classes, Anonymous classes
@@ -60,22 +65,30 @@ git clone https://github.com/jjaros/lombok-example.git
 12. [Lambda expressions](src/main/java/cz/jjaros/study/oca/ch12_lambda) - Basics of Lambda expressions (_for more info see chapter about Lambdas and Streams in OCP_)
 13. [Exceptions](src/main/java/cz/jjaros/study/oca/ch13_exception)
 
+
 ## OCP chapters ##
-1. [Functional interfaces](src/main/java/cz/jjaros/study/ocp/ch01_functionalinterfaces) - lambda expressions, standard interfaces, `Bi*` interfaces
-2. [Stream API](src/main/java/cz/jjaros/study/ocp/ch02_streams)
-3. [Concurrency and Synchronization](src/main/java/cz/jjaros/study/ocp/ch03_synchronization) - deadlock, daemon, pool, fork-join, cyclic barrier, ...
-4. [DateTime API](src/main/java/cz/jjaros/study/ocp/ch04_datetime)
-5. [Assertions](src/main/java/cz/jjaros/study/ocp/ch05_assertions)
-6. [Localization](src/main/java/cz/jjaros/study/ocp/ch06_localization)
-7. [JDBC](src/main/java/cz/jjaros/study/ocp/ch07_jdbc)
-8. [Files and I/O Fundamentals](src/main/java/cz/jjaros/study/ocp/ch08_files)
-9. [Generics](src/main/java/cz/jjaros/study/ocp/ch09_generics)
-10. [DTO and object mapping](src/main/java/cz/jjaros/study/ocp/ch10_objectmapping)
+1. [Classes and objects](src/main/java/cz/jjaros/study/ocp/ch01_classesobjects) - inheritance, immutable classes, basic Dozer example
+2. [Generics and Collection](src/main/java/cz/jjaros/study/ocp/ch02_generics)
+3. [Functional interfaces](src/main/java/cz/jjaros/study/ocp/ch03_functionalinterfaces) - lambda expressions, standard interfaces, `Bi*` interfaces
+4. [Stream API](src/main/java/cz/jjaros/study/ocp/ch04_streams)
+5. [Concurrency and Synchronization](src/main/java/cz/jjaros/study/ocp/ch05_synchronization) - deadlock, daemon, pool, fork-join, cyclic barrier, ...
+6. [DateTime API](src/main/java/cz/jjaros/study/ocp/ch06_datetime)
+7. [Assertions](src/main/java/cz/jjaros/study/ocp/ch07_assertions)
+8. [Localization](src/main/java/cz/jjaros/study/ocp/ch08_localization)
+9. [JDBC](src/main/java/cz/jjaros/study/ocp/ch09_jdbc)
+10. [Files and I/O Fundamentals](src/main/java/cz/jjaros/study/ocp/ch10_files)
+
 
 ## Sources and references ##
+**OCA:**
 * [www.tutorialspoint.com/java/java_exceptions](https://www.tutorialspoint.com/java/java_exceptions.htm)
 * [www.tutorialspoint.com/java/java_innerclasses](https://www.tutorialspoint.com/java/java_innerclasses.htm)
 * [docs.oracle.com/javase/tutorial/java/nutsandbolts/operators](https://docs.oracle.com/javase/tutorial/java/nutsandbolts/operators.html)
 * [docs.oracle.com/javase/tutorial/java/data/autoboxing](https://docs.oracle.com/javase/tutorial/java/data/autoboxing.html)
 * [docs.oracle.com/javase/tutorial/java/nutsandbolts/datatypes](https://docs.oracle.com/javase/tutorial/java/nutsandbolts/datatypes.html)
+
+**OCP:**
 * [docs.oracle.com/javase/8/docs/technotes/guides/language/assert](https://docs.oracle.com/javase/8/docs/technotes/guides/language/assert.html)
+* [www.geeksforgeeks.org/pojo-vs-java-beans/](https://www.geeksforgeeks.org/pojo-vs-java-beans/)
+* [stackoverflow.com/questions/2460048/difference-between-java-bean-and-enterprise-java-beans/](https://stackoverflow.com/a/2460071/4201399)
+* [docs.oracle.com/javase/tutorial/essential/concurrency/imstrat](https://docs.oracle.com/javase/tutorial/essential/concurrency/imstrat.html)
