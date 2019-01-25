@@ -33,6 +33,7 @@
   * use subclass of exception used in parent method
   * hide checked exception (omit `throws` clause) 
 
+
 ## Immutable class ##
 * see official Oracle guideline: [docs.oracle.com/javase/tutorial/essential/concurrency/imstrat](https://docs.oracle.com/javase/tutorial/essential/concurrency/imstrat.html)
 * example from Java API is e.g. `java.lang.String`
@@ -47,3 +48,9 @@
     * if necessary, create copies and return references to the copies)
   * never store references to external, mutable objects passed to the constructor 
     * if necessary, create copies, and store references to the copies) 
+
+
+## Instanceof ##
+* determines if object is instance of class or interface
+* if the reference type of checked object is unreachable with checked class, the compilation error is caused
+  * it's not relevant if reference type is interface (compilation error is not caused in this case)

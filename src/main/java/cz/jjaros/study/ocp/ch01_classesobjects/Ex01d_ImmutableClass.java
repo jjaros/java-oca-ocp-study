@@ -38,11 +38,11 @@ class NonImmutableWrapperClass {
 }
 
 // ukazkova immutable trida
-final public class Ex01c_ImmutableClass {
+final public class Ex01d_ImmutableClass {
 
     private final String string;
 
-    public Ex01c_ImmutableClass(String string) {
+    public Ex01d_ImmutableClass(String string) {
         this.string = string;
     }
 

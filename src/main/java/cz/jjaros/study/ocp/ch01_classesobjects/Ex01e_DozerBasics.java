@@ -22,7 +22,7 @@ import java.util.stream.Collectors;
  * See great comparison of three main mapping frameworks
  * at <a href="https://www.baeldung.com/java-performance-mapping-frameworks">www.baeldung.com/java-performance-mapping-frameworks</a>.
  */
-public class Ex01d_DozerBasics {
+public class Ex01e_DozerBasics {
 
     public static void main(String[] args) {
         mapEntityToDto(new DozerBeanMapper());
