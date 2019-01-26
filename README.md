@@ -62,7 +62,7 @@ You should have Oracle Java 8 SDK installed.
 9. [DateTime API](src/main/java/cz/jjaros/study/oca/ch09_datetime) - Java 8 DateTime API
 10. [Abstract](src/main/java/cz/jjaros/study/oca/ch10_abstract) - Abstract classes and methods
 11. [Interface](src/main/java/cz/jjaros/study/oca/ch11_interface)
-12. [Lambda expressions](src/main/java/cz/jjaros/study/oca/ch12_lambda) - Basics of Lambda expressions (_for more info see chapter about Lambdas and Streams in OCP_)
+12. [Lambda expressions](src/main/java/cz/jjaros/study/oca/ch12_lambda) - Basics of Lambda expressions
 13. [Exceptions](src/main/java/cz/jjaros/study/oca/ch13_exception)
 
 
