@@ -8,7 +8,7 @@
 * command line switches for enabling assertion/system assertions: `-ea`/`-esa` or `-enableassertions`/`-enablesystemassertions`
 * command line switches for disabling assertion/system assertions: `-da`/`-dsa` or `-disableassertions`/`-disablesystemassertions`
 * parameters of switches:
-  * *no argument* = enables/disables in all classes except system classes
-  * *packageName...* = enables/disables in named package and its subpackages
-  * *...* = enables/disables in unnamed package in current working directory
-  * *ClassName* = enables/disables in named class
+  * **no argument** = enables/disables in all classes except system classes
+  * **packageName...** = enables/disables in named package and its subpackages
+  * **...** = enables/disables in unnamed package in current working directory
+  * **ClassName** = enables/disables in named class

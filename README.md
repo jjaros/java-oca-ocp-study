@@ -68,7 +68,7 @@ You should have Oracle Java 8 SDK installed.
 
 ## OCP chapters ##
 1. [Classes and objects](src/main/java/cz/jjaros/study/ocp/ch01_classesobjects) - inheritance, immutable classes, basic Dozer example
-2. [Generics and Collection](src/main/java/cz/jjaros/study/ocp/ch02_generics)
+2. [Generics and Collections](src/main/java/cz/jjaros/study/ocp/ch02_generics)
 3. [Functional interfaces](src/main/java/cz/jjaros/study/ocp/ch03_functionalinterfaces) - lambda expressions, standard interfaces, `Bi*` interfaces
 4. [Stream API](src/main/java/cz/jjaros/study/ocp/ch04_streams)
 5. [Concurrency and Synchronization](src/main/java/cz/jjaros/study/ocp/ch05_synchronization) - deadlock, daemon, pool, fork-join, cyclic barrier, ...
@@ -92,3 +92,4 @@ You should have Oracle Java 8 SDK installed.
 * [www.geeksforgeeks.org/pojo-vs-java-beans/](https://www.geeksforgeeks.org/pojo-vs-java-beans/)
 * [stackoverflow.com/questions/2460048/difference-between-java-bean-and-enterprise-java-beans/](https://stackoverflow.com/a/2460071/4201399)
 * [docs.oracle.com/javase/tutorial/essential/concurrency/imstrat](https://docs.oracle.com/javase/tutorial/essential/concurrency/imstrat.html)
+* [stackoverflow.com/questions/4343202/difference-between-super-t-and-extends-t-in-java](http://stackoverflow.com/questions/4343202/difference-between-super-t-and-extends-t-in-java)
