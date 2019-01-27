@@ -11,7 +11,7 @@ public class Ex09_CommonLogic {
     public static JDBCDataSource getDataSource() {
         // stare:
         //        Connection connection  = DriverManager.getConnection("jdbc:hsqldb:mem:test", "sa", "");
-        // lepsi: (ovsem nejlepsi je HikariCP)
+        // lepsi: (ovsem nejlepsi je HikariCP: https://github.com/brettwooldridge/HikariCP)
         final JDBCDataSource dataSource = new JDBCDataSource();
         dataSource.setUrl("jdbc:hsqldb:mem:test");
         dataSource.setUser("sa");
